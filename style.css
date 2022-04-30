@@ -64,13 +64,6 @@ h3{
     float: right;
     padding-left: 30px;
 }
-hr{
-    border-style: none;
-    border-top: dotted;
-    border-color: #becfcc;
-    border-width: 8px;
-    width: 5%;
-}
 .profile{
     margin: auto;
     width: 50%;
