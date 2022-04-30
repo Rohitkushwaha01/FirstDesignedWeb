@@ -1,25 +1,32 @@
 body{
     margin: 0px;
-    text-align: center;
-    font-family: "Merriweather";
+    text-align: center !important;
+    font-family: "Merriweather" !important;
 }
 
 h1{
-    font-family: "Sacramento";
-    font-size: 5.625rem;
+    font-family: "Sacramento" !important;
+    font-size: 5.625rem !important;
     margin: 50px auto 0 auto;
-    color: #66BFBF;
+    color: #000000;
+
 }
 h2{
-    font-family: "Montserrat";
+    font-family: "Montserrat" !important;
     font-size: 1.5rem;
-    color: #66BFBF;
-    font-weight: bold;
+    color: #000000;
+    font-weight: bold !important;
 }
 h3{
-    font-family: "Montserrat";
-    color: #66BFBF;
+    font-family: "Montserrat" !important; 
+    color: #66BFBF !important;
 }
+
+.container{
+    max-width: 100% !important;
+    padding: 0px !important;
+}
+
 .top-container{
     background-color: #cbf8f0;
     padding-top: 100px;
@@ -46,13 +53,13 @@ h3{
     line-height: 2;
 }
 .skills-lap{
-    width: 25%;
+    width: 210px;
     height: 25%;
     float: left;
     padding-right: 30px;
 }
 .skills-html{
-    width: 25%;
+    width: 210px;
     height: 25%;
     float: right;
     padding-left: 30px;
@@ -80,6 +87,7 @@ hr{
 }
 .contact-me{
     line-height: 2;
+    padding: 12px;
 }
 .footer-link{
     padding-right: 15px;
@@ -91,6 +99,12 @@ hr{
 a{
     color: #084547;
 }
+
+.text-end{
+    position: relative;
+    top: 5px;
+}
+
 
 
 .btn {
@@ -121,3 +135,36 @@ a{
     text-decoration: none;
   }
 
+@media screen and (max-width:660px) {
+    #mountain{
+        width: 100%;
+    }
+    .skills-lap{
+        width: 200px;
+    }
+    .skill-row {
+        width: 50%;
+        margin: 50px auto;
+        line-height: 2;
+    }
+    .skill-row p{
+        text-align: left;
+    }
+    
+}
+
+@media screen and (max-width:560px) {
+    .bottom-cloud {
+        position: relative;
+        left: 80px;
+        bottom: 0px;
+    }
+    .top-cloud {
+        position: absolute;
+        right: 180px;
+        top: 50px;
+    }
+    .profile{
+        width: 85%;
+    }
+}
